@@ -12,7 +12,7 @@ export function ThemeToggle() {
       variant="outline"
       size="icon"
       onClick={toggleTheme}
-      className="h-12 w-12 rounded-full bg-transparent"
+      className="h-12 w-12 rounded-full bg-transparent border-2 dark:border-ring dark:hover:bg-ring/60 transition-all"
       aria-label={theme === "dark" ? "Mudar para tema claro" : "Mudar para tema escuro"}
     >
       {theme === "dark" ? (
