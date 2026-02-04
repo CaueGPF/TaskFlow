@@ -12,11 +12,7 @@ import { Footer } from "./footer";
 
 export function TodoList() {
   const { toast } = useToast();
-  const [todos, setTodos] = useState<Todo[]>([
-    { id: "1", title: "Aprender React e Next.js", completed: true, createdAt: new Date() },
-    { id: "2", title: "Criar uma aplicação incrível", completed: false, createdAt: new Date() },
-    { id: "3", title: "Organizar minhas tarefas", completed: false, createdAt: new Date() },
-  ]);
+  const [todos, setTodos] = useState<Todo[]>([]);
   const [filter, setFilter] = useState<FilterType>("all");
 
   const addTodo = (title: string) => {
