@@ -15,9 +15,10 @@ O projeto foi desenvolvido com foco em componentização reutilizável, organiza
 Aplicação hospedada na **Vercel**, utilizando ambiente otimizado para aplicações Next.js.
 
 ## 📸 Preview do Projeto
-
-![Vortex Digital Preview](preview-taskflow.png)
-
+### Dark Theme
+![TaskFlow Preview](preview-theme-d-taskflow.png)
+### Light Theme
+![TaskFlow Preview](preview-theme-l-taskflow.png)
 ---
 
 ## ✨ Funcionalidades
